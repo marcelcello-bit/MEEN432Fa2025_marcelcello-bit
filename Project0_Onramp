@@ -1,0 +1,13 @@
+# move your PDF into the repo folder
+cp ~/Downloads/certificate1.pdf ~/my-github-repo/
+
+cd ~/my-github-repo/
+
+# stage the file
+git add certificate1.pdf
+
+# commit with a message
+git commit -m "Add certificate1.pdf"
+
+# push to GitHub
+git push origin main
